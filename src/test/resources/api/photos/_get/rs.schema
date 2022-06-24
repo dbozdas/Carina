@@ -4,7 +4,7 @@
     "items": {
         "type": "object",
         "properties": {
-            "userId": {
+            "albumId": {
                 "type": "integer"
             },
             "id": {
@@ -13,9 +13,13 @@
             "title": {
                  "type": "string"
             },
-            "body": {
+            "url": {
                 "type": "string"
+            },
+            "thumbnailUrl": {
+                 "type": "string"
             }
+
         }
     }
 }
