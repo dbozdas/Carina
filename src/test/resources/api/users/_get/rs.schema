@@ -1,29 +1,29 @@
 {
-"$schema": "http://json-schema.org/draft-04/schema#",
-"type": "array",
-"items": {
-"type": "object",
-"properties": {
-"id": {
-"type": "integer"
-},
-"name": {
-"type": "string"
-},
-"username": {
-"type": "string"
-},
-"email": {
-"type": "string"
-},
-"address": {
-"type": "object",
-"properties": {
-"street": {
-"type": "string"
-},
-"suite": {
-"type": "string"
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "integer"
+      },
+      "name": {
+        "type": "string"
+      },
+      "username": {
+        "type": "string"
+      },
+      "email": {
+        "type": "string"
+      },
+      "address": {
+        "type": "object",
+        "properties": {
+          "street": {
+            "type": "string"
+          },
+          "suite": {
+            "type": "string"
           },
           "city": {
             "type": "string"
@@ -74,22 +74,22 @@
             "type": "string"
           }
         },
-"required": [
-"name",
-"catchPhrase",
-"bs"
-]
-}
-},
-"required": [
-"id",
-"name",
-"username",
-"email",
-"address",
-"phone",
-"website",
-"company"
-]
-}
+        "required": [
+          "name",
+          "catchPhrase",
+          "bs"
+        ]
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "username",
+      "email",
+      "address",
+      "phone",
+      "website",
+      "company"
+    ]
+  }
 }
