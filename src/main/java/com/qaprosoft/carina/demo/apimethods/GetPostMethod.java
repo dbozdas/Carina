@@ -27,9 +27,9 @@ import com.qaprosoft.carina.core.foundation.utils.Configuration;
 @ResponseTemplatePath(path = "api/posts/_get/rs.json")
 @SuccessfulHttpStatus(status = HttpResponseStatusType.OK_200)
 
-public class GetPostMethods extends AbstractApiMethodV2 {
+public class GetPostMethod extends AbstractApiMethodV2 {
 
-    public GetPostMethods() {
+    public GetPostMethod() {
         replaceUrlPlaceholder("base_url", Configuration.getEnvArg("api_url"));
     }
 }

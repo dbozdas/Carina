@@ -1,8 +1,8 @@
-[
-  {
+{
+  "0": {
     "id": 1,
-    <#if name??>"name": "${name}",</#if>
-    <#if username??>"username": "${username}",</#if>
+    "name": "Leanne Graham",
+    "username": "dhpqnrmm",
     "email": "Sincere@april.biz",
     "address": {
       "street": "Kulas Light",
@@ -17,9 +17,10 @@
     "phone": "1-770-736-8031 x56442",
     "website": "hildegard.org",
     "company": {
-      "name": "${company_name}",
+      "name": "golmgkgo",
       "catchPhrase": "Multi-layered client-server neural-net",
       "bs": "harness real-time e-markets"
     }
-  }
-]
+  },
+  "id": 11
+}
