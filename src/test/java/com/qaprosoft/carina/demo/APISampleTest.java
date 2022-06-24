@@ -22,6 +22,7 @@ import com.qaprosoft.carina.core.foundation.utils.ownership.MethodOwner;
 import com.qaprosoft.carina.core.foundation.utils.tag.Priority;
 import com.qaprosoft.carina.core.foundation.utils.tag.TestPriority;
 import com.qaprosoft.carina.demo.api.DeleteUserMethod;
+import com.qaprosoft.carina.demo.api.GetPostMethods;
 import com.qaprosoft.carina.demo.api.GetUserMethods;
 import com.qaprosoft.carina.demo.api.PostUserMethod;
 import org.skyscreamer.jsonassert.JSONCompareMode;
@@ -90,5 +91,13 @@ public class APISampleTest implements IAbstractTest {
         deleteUserMethod.setProperties("api/users/user.properties");
         deleteUserMethod.callAPIExpectSuccess();
         deleteUserMethod.validateResponse();
+    }
+
+
+    @Test()
+    @MethodOwner(owner = "qpsdemo")
+    public void testGetPosts() {
+        GetPostMethods getPostsMethods = new GetPostMethods();
+        getPostsMethods.callAPIExpectSuccess();
     }
 }
