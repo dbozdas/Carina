@@ -26,7 +26,6 @@ import com.qaprosoft.carina.core.foundation.utils.Configuration;
 @Endpoint(url = "${base_url}/posts", methodType = HttpMethodType.GET)
 @ResponseTemplatePath(path = "api/posts/_get/rs.json")
 @SuccessfulHttpStatus(status = HttpResponseStatusType.OK_200)
-
 public class GetPostMethod extends AbstractApiMethodV2 {
 
     public GetPostMethod() {
